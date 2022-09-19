@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mainMenuButton {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+#nav{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-right:25px ;
+}
+#nav>img{
+    width:50px;
+    margin-left:18px;
+    margin-bottom: 5px;
+}
+
+#login {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0);
+
+}
+
+#image {
+    border-left-style: solid;
+    border-color: white;
+    margin-right: 25px;
+    padding-left: 25px;
+    position: relative;
+}
+
+#image>img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0);
+}
+
+.menu-name {
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    padding: 2px 0px 0px 0px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(31, 31, 31);
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 25px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+button {
+    width: 350px;
+    height: 30px;
+    border: none;
+    background-color: rgb(56, 56, 56);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3px;
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#error{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 25px;
+}

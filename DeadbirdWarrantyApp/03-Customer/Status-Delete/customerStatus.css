@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: rgb(35, 35, 35);
+    font-family: 'calibri', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nav {
+    background-image: url(https://lh3.googleusercontent.com/ilkSbvIgNklpiPtNmoPIPABcR9hBVVLYpkahXtsjPidu_27nNR1u3Q8pyAxipC5mK6I6tLPtPJJkMS8f_l9qgHtzJG3sZ7jsjNl8Q5W__gzz7LqpucnQGvorRJ-LL-lspaxr8IaW8GjHIZjmgrDgZ2snmmePuWOUNHdachz4Z4GMp20lsQ8LggWEfMd7m79kdE4yPCVxprsGYV3MPf9_a8esbbH2HschWgzhM5Q-YVwFepE8EMX4VTK5bOGD-iVXiSkgLaJhLAKbd4UmiXDdrhf03bz7oL8f0gQLKoQ_5D0cg5ol5zPjBexdDljBWpa9W85vjZzEkPlgVpUMXxMRxg1VQLw7oVFdIYDLh3AuIW1m0Ytj66I-ew-N63uoeWx-Z1EzNZetJD_KNU3YizUQ507x7X7n16CVphXGdJpzUSo9KZ4Bp277u4UziIBLlWCc69pUM0xe2SkMX2IfNCnqOODZr1TjcBD5onpFpbaC_zdiQgTHE0vwkiHe58Sgn43rWkeNCKUZXNMSRHn_bx9bac0taVxJh_zrOJYXuyh7pNlj0fnw6pFOY9qYjgPdC7B_s55WWMqctMkIX2scGplfm2ryK_1rEv6sfD34fnIRyeAN8nf4eD-JI5GTI2AJpnkmAlLwF3P8n-d5lzkrUNGfGvXQQhBXDGoHWq8ih9E1VaNfaQU4NKnVq4qPGcp-SHbXS9RKY52rADeGD7l-qhMW1Bz4GyCSl2jFq_yAQjdQki5MiziSOCO-GZBlCPp06Ydxc1f-RC9Jb8qrEYs85yAaXjBrZSTdWdae4ro=w774-h1032-no?authuser=0);
+    background-position: left top;
+    background-size: cover;
+    width: 150px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+p {
+    margin: 5px;
+}
+#mainMenuButton {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(35, 35, 35);
+    padding-left: 35px;
+}
+
+h1 {
+    padding: 0px 0px 0px 17px;
+    color: rgb(35, 35, 35);
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#lookUpWarranty {
+    margin: 0px 30px;
+    height: auto;
+}s
+
+#deleteWarranty {
+    margin-right: 30px;
+}
+
+#lookUpWarranty,
+#deleteWarranty {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+
+}
+
+#lookUpWarranty>p,
+#deleteWarranty>p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+input {
+    width: 200px;
+    height: 30px;
+    padding: 2px 0px 0px 0px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(31, 31, 31);
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+button {
+    cursor: pointer;
+    width: 208px;
+    height: 30px;
+    border: none;
+    background-color: rgb(56, 56, 56);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3px;
+    color: white;
+    margin: 15px 0px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}

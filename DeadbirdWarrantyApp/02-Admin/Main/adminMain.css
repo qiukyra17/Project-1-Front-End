@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: rgb(35, 35, 35);
+    font-family: 'calibri', sans-serif;
+    color: rgb(35, 35, 35);
+    display: flex;
+    align-items: flex-start;
+
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(35, 35, 35);
+    width: 150px;
+    text-align: center;
+}
+
+#nav {
+    width: 150px;
+    height: 750px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, .25)), url(https://lh3.googleusercontent.com/pw/AL9nZEXUh9yvFZwhjAq5Lb50LwGA_xpJUoW59ULgbw1ZFQYigOcn3jg1G2hHNAf40-UIoAvrbq3d6I9rXVrf65tobbTOSwVXPjWD0T3ZHGEwa3aeWv30IdTyb20N_NDbkD8CTOWOZUiJk5Nc0NaRuD054pj8=w669-h892-no?authuser=0);
+    background-position: -177px -0px;
+    background-size: cover;
+}
+
+#nav>img {
+    width: 75px;
+    margin: 2px;
+    position: relative;
+}
+
+#allWarranty,
+#lookUpWarranty,
+#updateWarranty {
+    width: 400px;
+    background-color: white;
+    margin: 15px;
+    padding: 0px 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#lookUpWarranty {
+    height: auto;
+}
+
+#allWarranty {
+    height: auto;
+    border-left-style: solid;
+    border-color: white;
+}
+
+/* 
+#updateWarranty{
+} */
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 5px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    padding: 2px 0px 0px 0px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(31, 31, 31);
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+button {
+    cursor: pointer;
+    width: 208px;
+    height: 30px;
+    border: none;
+    background-color: rgb(56, 56, 56);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3px;
+    color: white;
+    margin: 20px 0px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}

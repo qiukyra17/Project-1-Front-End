@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="customerRequest.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="nav">
+        <h1>Warrant Request Form</h1>
+        <a id="mainMenuButton"
+            href="C:\Users\kywahhhhhhh\IdeaProjects\Project 01 - Front End\DeadbirdWarrantyApp\03-Customer\Main\CustomerMain.html">Back
+            to Main</a>
+    </div>
+    <div id="readMeFirst">
+        <h3>Please review what is covered under our Limited Warranty below.</h3>
+        <table id="criteria">
+            <tr>
+                <th class="columnTitle">Product/Category</th>
+                <th class="columnTitle">Warranty Period</th>
+            </tr>
+            <tr>
+                <th class="column1">Shell Jackets</th>
+                <th class="column2">Practical Product Lifespan</th>
+            </tr>
+            <tr>
+                <th class="column1">Insulated Jackets</th>
+                <th class="column2">Practical Product Lifespan</th>
+            </tr>
+            <tr>
+                <th class="column1">Apparel: Pants + Tops</th>
+                <th class="column2">Practical Product Lifespan</th>
+            </tr>
+            <tr>
+                <th class="column1">Packs (other than Voltair Airbag)</th>
+                <th class="column2">Practical Product Lifespan</th>
+            </tr>
+            <tr>
+                <th class="column1">Voltair Airbag</th>
+                <th class="column2">3 Years from date of purchase</th>
+            </tr>
+            <tr>
+                <th class="column1">Footwear</th>
+                <th class="column2">1 year from date of purchase</th>
+            </tr>
+            <tr>
+                <th class="column1">Accessories (other than ski boots)</th>
+                <th class="column2"> Practical Product Lifespan</th>
+            </tr>
+        </table>
+        <h3>What Does Practical Product Lifespan Mean?</h3>
+        <p class="answer">
+            Practical Product Lifespan means the usual and customary wearable life of the product. The Practical Product
+            Lifespan does not mean for your lifetime or mean a time period that is indefinite. The manner in which the
+            product is used directly impacts the usual and customary wearable life of the product, as materials will
+            deteriorate and fade over time and moving parts will also wear. Arc’teryx products are designed for long
+            life and durability, if care instructions are followed carefully. If your product appears worn out, then it
+            may be time to replace your product and we hope that Arc’teryx will be a part of your next buying decision.
+            Practical product Lifespan will be determined in the reasonable discretion of an authorized Arc’teryx
+            Customer Service representative who shall take into account at least the following factors: the type and
+            nature of the product, the nature of the use of the product, nature of the product issue involved, and age
+            of the product. The Arc’teryx Customer Service representative may require consumer information in order to
+            make the foregoing determination and may not be able to make a determination without such accurate
+            information from the consumer.
+        </p>
+    </div>
+    <div class="form">
+        <p class="information">Please Enter Your Full Name</p>
+        <input type="text" id="customerName" required="required" placeholder="Name">
+
+        <p class="information">Please Enter Your Email</p>
+        <input id="customerEmail" type="text" required="required" placeholder="Email">
+
+        <p class="information">Please Enter Your Phone Number</p>
+        <input id="customerNumber" type="text" required="required" placeholder="Phone Number">
+
+        <p class="information">Please Enter the Number Associated with the Brand:</p>
+        <p class="information">1:Arcteryx - 2:Veilance - 3:System_A</p>
+        <input id="brandID" type="number" min="1" max="3" placeholder="Brand Number">
+
+        <p class="information">Please Enter the Number Associated with the Gender:</p>
+        <p class="information">1:Unisex - 2:Men's - 3:Women's</p>
+        <input id="genderID" type="number" min="1" max="3" placeholder="Gender Number">
+
+        <p class="information">Please Enter the Number Associated with the Product Type: </p>
+        <p class="information">1:Shell Jacket - 2:Insulated
+            Jacket - 3:Pants - 4:Tops - 5:Packs - 6:Footwear - 7:Accesories</p>
+        <input id="productTypeID" type="number" min="1" max="7" required="required" placeholder="Product Type Number">
+
+        <p class="information">Please Enter the Product Name</p>
+        <input id="productName" type="text" placeholder="Product Name">
+
+        <p class="information">Please Enter the Product Issue</p>
+        <input id="productIssue" type="text" required="required" placeholder="Product Issue">
+        <div>
+            <button type="submit" id="submitButton">Submit Warranty Request</button>
+            <div id="displayWarrantyNo"></div>
+        </div>
+    </div>
+    <script
+        src="C:\Users\kywahhhhhhh\IdeaProjects\Project 01 - Front End\DeadbirdWarrantyApp\03-Customer\Request\customerRequest.js"></script>
+</body>
+
+</html>

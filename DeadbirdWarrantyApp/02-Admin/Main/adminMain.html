@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adminMain.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="nav">
+        <img
+            src="C:\Users\kywahhhhhhh\IdeaProjects\Project 01 - Front End\DeadbirdWarrantyApp\00-Resources\black-deadbird.png">
+        <a
+            href="C:\Users\kywahhhhhhh\IdeaProjects\Project 01 - Front End\DeadbirdWarrantyApp\00-MainMenu\MainMenu.html">Back
+        </a>
+    </div>
+    <div id="allWarranty">
+        <h2 class="prompt">All Warranty</h2>
+        <div id="displayWarranty">
+            <table id="Warranty">
+                <!-- <tr id="header">
+                    <th>Customer</th>
+                    <th>Warranty Number</th>
+                    <th>Brand</th>
+                    <th>Gender</th>
+                    <th>Product Type</th>
+                    <th>Product Issue</th>
+                    <th>Status</th>
+                </tr> -->
+            </table>
+        </div>
+    </div>
+
+    <div id="lookUpWarranty">
+        <h2 class="prompt">Look Up Warranty</h2>
+        <p>Please Enter Warranty Number</p>
+        <input type="text" id="searchInput" placeholder="Warranty Number">
+        <button type="submit" id="searchButton">Look Up</button>
+        <div id="result"></div>
+
+    </div>
+
+    <div id="updateWarranty">
+        <h2 class="prompt">Update Warranty</h2>
+
+        <div>
+            <p>Please Enter Warranty Number</p>
+            <input type="number" min="100"
+                onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
+                id="updateWarrantyNoInput" required="required" placeholder="Waranty Number">
+        </div>
+
+        <div>
+            <p>Please Enter Status Update</p>
+            <input type="text" id="statusUpdateInput" required="required" placeholder="Status Update">
+        </div>
+        <button type="submit" id="updateButton">Update</button>
+        <div id="message"></div>
+    </div>
+    <script
+        src="C:\Users\kywahhhhhhh\IdeaProjects\Project 01 - Front End\DeadbirdWarrantyApp\02-Admin\Main\adminMain.js"></script>
+</body>
+
+</html>
